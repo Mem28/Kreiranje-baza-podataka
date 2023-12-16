@@ -2,19 +2,19 @@ select * from usluge;
 
 
 insert into usluge (opis,cijena)
-values ('pranje/sušenje', null);
+values ('ugradnja noktiju', 50);
 
 insert into usluge (opis,cijena)
-values ('šišanje/feniranje', 45);
+values ('ugradnja trepavica', 45);
 
 insert into usluge (opis,cijena)
-values ('pramenovi/paket', 85);
+values ('trajni lak na nogama', 25);
 
 insert into usluge (opis,cijena)
-values ('bojanje/duga_kosa', 60);
+values ('trajni lak na rukama', 25);
 
 insert into usluge (opis,cijena)
-values ('pranje/sušenje', 25);
+values ('medicinska pedikura', 35);
 
 insert into usluge (opis,cijena)
-values ('balayage/paket', 95);
+values ('brow lift', 50);
