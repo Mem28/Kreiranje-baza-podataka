@@ -61,16 +61,16 @@ values ('OS5');
 select * from strucne_spreme;
 
 insert into strucne_spreme(naziv)
-values ('VSS');
+values ('KV');
+
+insert into strucne_spreme(naziv)
+values ('KV/SSS');
+
+insert into strucne_spreme(naziv)
+values ('SSS');
 
 insert into strucne_spreme(naziv)
 values ('VSS');
 
 insert into strucne_spreme(naziv)
-values ('VSS');
-
-insert into strucne_spreme(naziv)
-values ('VSS');
-
-insert into strucne_spreme(naziv)
-values ('VSS');
+values ('VŠS');
