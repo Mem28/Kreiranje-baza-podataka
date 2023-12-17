@@ -742,10 +742,9 @@ sifra int not null
 );
 create table nakladnici(
 id int not null primary key identity(1,1),
-ime varchar(40) not null,
-prezime varchar(40) not null,
-oib char(11),
-iban varchar(40),
+naziv varchar (100) not null,
+telefon varchar (50),
+email varchar (50),
 mjesta_id int,
 djela_id int
 );
