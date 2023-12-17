@@ -748,6 +748,7 @@ email varchar (50),
 mjesta_id int,
 djela_id int
 );
+drop table nakladnici;
 create table nakladnici_djela(
 id int not null primary key identity(1,1),
 nakladnici_id int, 
