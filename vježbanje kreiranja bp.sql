@@ -251,8 +251,10 @@ use postolari;
 
 create table obuce(
 id int not null primary key identity(1,1),
-naziv varchar(40) not null,
-korisnici_id int,
+vrsta_obuce varchar(40) not null,
+proizvodac varchar (50),
+br_obuce int,
+korisnici_id  int,
 popravci_id int
 );
 create table korisnici(
@@ -271,6 +273,7 @@ iban varchar(40)
 );
 create table popravci(
 id int not null primary key identity(1,1),
+opis varchar(100),
 cijena decimal(5,2),
 segrti_id int,
 obuce_id int
